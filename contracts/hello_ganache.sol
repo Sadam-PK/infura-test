@@ -19,7 +19,8 @@ contract Hello_Ganache {
     }
 
     function getUserInfo()
-        public view
+        public
+        view
         returns (
             int256,
             string memory,
