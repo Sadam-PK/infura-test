@@ -11,13 +11,11 @@ contract Hello_Ganache {
     function setUserInfo(
         int256 _age,
         string calldata _name,
-        bool _isStudent,
-        address _owner
+        bool _isStudent
     ) public {
         age = _age;
         name = _name;
         isStudent = _isStudent;
-        owner = _owner;
     }
 
     function getUserInfo()
@@ -25,10 +23,9 @@ contract Hello_Ganache {
         returns (
             int256,
             string memory,
-            bool,
-            address
+            bool
         )
     {
-        return (age, name, isStudent, owner);
+        return (age, name, isStudent);
     }
 }
