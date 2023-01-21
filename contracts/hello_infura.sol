@@ -2,7 +2,7 @@
 
 pragma solidity >=0.0.22 <0.9.0;
 
-contract Hello_Ganache {
+contract Hello_Infura {
     int256 private age;
     string private name;
     bool private isStudent;
