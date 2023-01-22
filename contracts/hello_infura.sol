@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 
 pragma solidity >=0.0.22 <0.9.0;
-
 contract Hello_Infura {
     int256 private age;
     string private name;
